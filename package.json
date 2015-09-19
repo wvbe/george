@@ -1,0 +1,17 @@
+{
+  "name": "slacknerf",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "iojs --harmony_arrow_functions index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "ws": "^0.8.0"
+  },
+  "devDependencies": {
+    "speak-softly": "wvbe/speak-softly"
+  }
+}
