@@ -16,7 +16,6 @@ var profile = process.env.SITE_CONFIG || 'default',
 					return;
 
 				site.sendReaction(message, config.emoji).catch(dumpError);
-				site.sendMessage(message.channel, 'Too bad, crybaby :' + config.emoji + ':').catch(dumpError);
 			});
 		}
 	},
